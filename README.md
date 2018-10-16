@@ -5,13 +5,13 @@ Assignment2 is a GUI tool for loading/viewing/modifying tennis databases. The da
 
 <b>AUTHORS</b><br>
 	&emsp;Jeremy Maxey-Vesperman<br>
-	&emsp;Prof. Giuseppe Turini<br>
+	&emsp;Prof. Giuseppe Turini<br><br>
 <b>DATABASE FILE FORMAT</b><br>
 	&emsp;Database can be loaded from text (.txt) files. Each player/match entry must be on separate lines (CR+LF) and use the following format:<br>
 	&emsp;&emsp;<i>Player entry</i>:<br>
 		&emsp;&emsp;&emsp;PLAYER/[Unique identifier]/[First name]/[Last name]/[Year of birth (YYYY)]/[Country]<br>
 	&emsp;&emsp;<i>Match entry:</i><br>
-		&emsp;&emsp;&emsp;MATCH/[UID of Player 1]/[UID of Player 2]/[Match date (YYYYMMDD)]/[Tournament name]/[Set score (P1Match1-P2Match1,P1Match2-P2Match2,...)]<br>
+		&emsp;&emsp;&emsp;MATCH/[UID of Player 1]/[UID of Player 2]/[Match date (YYYYMMDD)]/[Tournament name]/[Set score (P1Match1-P2Match1,P1Match2-P2Match2,...)]<br><br>
 <b>OPERATING INSTRUCTIONS</b><br>
   <blockquote>1. Import a Database: "File" -> "Import Database" -> Choose file -> "Open"<br>
 	2. Export a Database: "File" -> "Export Database" -> Choose file -> "Save"<br>
